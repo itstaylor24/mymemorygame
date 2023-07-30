@@ -1,0 +1,27 @@
+body {
+	background-color: mintcream;
+	margin: 0;
+}
+
+.cards {
+	margin: 48px auto;
+	width: max-content;
+	display: grid;
+	grid-template-columns: repeat(4, 150px);
+	gap: 16px;
+	box-sizing: border-box;
+}
+
+.card {
+	height: 150px;
+	background: tan;
+	border: none;
+	cursor: pointer;
+}
+
+h1 {
+	text-align: center;
+	font-family: fantasy;
+}
+
+
